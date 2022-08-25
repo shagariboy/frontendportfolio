@@ -263,7 +263,7 @@ textarea {
 }
 
 .img-fluid {
-  max-width: 100%;
+  width: 355px;
   height: 250px;
 }
 
