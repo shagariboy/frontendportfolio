@@ -302,13 +302,7 @@
                 <h2 class="section-heading text-uppercase">Contact Me</h2>
                 <h3 class="section-subheading text-muted">Happy to hear from you!</h3>
             </div>
-            <!-- * * * * * * * * * * * * * * *-->
-            <!-- * * SB Forms Contact Form * *-->
-            <!-- * * * * * * * * * * * * * * *-->
-            <!-- This form is pre-integrated with SB Forms.-->
-            <!-- To make this form functional, sign up at-->
-            <!-- https://startbootstrap.com/solution/contact-forms-->
-            <!-- to get an API token!-->
+
             <form id="contactForm" data-netlify="true" name="pubYana" method="POST" role="form" action="/success.html">
                 <div class="row align-items-stretch mb-5">
                     <div class="col-md-6">
@@ -337,26 +331,10 @@
                         </div>
                     </div>
                 </div>
-                <!-- Submit success message-->
-                <!---->
-                <!-- This is what your users will see when the form-->
-                <!-- has successfully submitted-->
-                <div class="d-none" id="submitSuccessMessage">
-                    <div class="text-center text-white mb-3">
-                        <div class="fw-bolder">Form submission successful!</div>
-                        Happy to hear from you!
-                    </div>
-                </div>
-                <!-- Submit error message-->
-                <!---->
-                <!-- This is what your users will see when there is-->
-                <!-- an error submitting the form-->
-                <div class="d-none" id="submitErrorMessage">
-                    <div class="text-center text-danger mb-3">Error sending message!</div>
-                </div>
+
                 <!-- Submit Button-->
-                <div class="text-center"><button class="btn btn-primary btn-xl text-uppercase" id="submitButton"
-                        type="submit">Send Message</button></div>
+                <div class="text-center"><button class="btn btn-primary btn-xl text-uppercase" id="submit" type="submit"
+                        value="submit">Send Message</button></div>
             </form>
         </div>
     </section>
@@ -612,7 +590,6 @@
     <script src="js/scripts.js"></script>
     <script src="js/stacks.js"></script>
     <script src="js/api.js"></script>
-    <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
 </body>
 
 </html>
